@@ -1,0 +1,12 @@
+iframe {
+    height:120px !important;
+    width: 100%;
+    overflow:hidden;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+    border: 0px;
+    top:0;
+}
+iframe::-webkit-scrollbar {  
+    display: none;
+}
