@@ -1,6 +1,6 @@
 import { LightningElement,api,track } from 'lwc';
 
-export default class HawPortalRecaptcha extends LightningElement {
+export default class Recaptcha extends LightningElement {
     @track navigateTo="/apex/portalSmartyAddress";
     @track _url="";
     @track _height="";
